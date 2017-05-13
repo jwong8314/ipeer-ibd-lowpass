@@ -15,7 +15,12 @@ master.sh -- takes a bgzip file and runs finds IBD segments
 	- drop multiallelic
 	- call eagle to phase
 	- call beagle to call ibd
-bcftools.sh -- drops multiallelic sites
+downsample.cpp -- program downsamples a given sam file
+  - NOTE: original file accidentially deleted so was rewritten
+	        thus this version may not be completely debugged 
+					and never used on real SAM
+  - count number of bases
+	- uniformly sample the reads by proper fraction to obtain desired coverage
 testGATK.sh -- runs HaplotypeCaller on sorted bam
   - sorts 
 	- call HaplotypeCaller both 1.0 and 0.1 sampling
