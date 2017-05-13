@@ -1,0 +1,404 @@
+beagle.21Jan17.6cc.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.21Jan17.6cc.jar" for a summary of command line arguments.
+Start time: 09:05 PM EDT on 11 May 2017
+
+Command line: java -Xmx3641m -jar beagle.jar
+  nthreads=8
+  ibd=true
+  ibdcm=1.0
+  gt=TAGC_illumina.phased-only1.vcf.gz
+  out=TAGC_illumina.beagle.chr1
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+reference samples:       0
+target samples:        577
+
+Window 1 [ 1:10144-4467300 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    19 seconds
+
+mean edges/level: 11     max edges/level: 40
+mean edges/node:  1.193  mean count/edge: 105
+
+Window 2 [ 1:4178852-10162193 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    21 seconds
+
+mean edges/level: 13     max edges/level: 36
+mean edges/node:  1.128  mean count/edge: 89
+
+Window 3 [ 1:9703860-15472887 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    19 seconds
+
+mean edges/level: 12     max edges/level: 31
+mean edges/node:  1.154  mean count/edge: 96
+
+Window 4 [ 1:15177848-19964326 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    19 seconds
+
+mean edges/level: 13     max edges/level: 35
+mean edges/node:  1.171  mean count/edge: 89
+
+Window 5 [ 1:19600395-26031094 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    21 seconds
+
+mean edges/level: 13     max edges/level: 36
+mean edges/node:  1.133  mean count/edge: 89
+
+Window 6 [ 1:25609724-32429977 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    26 seconds
+
+mean edges/level: 12     max edges/level: 34
+mean edges/node:  1.136  mean count/edge: 96
+
+Window 7 [ 1:31986922-39132551 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    27 seconds
+
+mean edges/level: 12     max edges/level: 33
+mean edges/node:  1.130  mean count/edge: 96
+
+Window 8 [ 1:38728372-45978923 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    21 seconds
+
+mean edges/level: 13     max edges/level: 32
+mean edges/node:  1.127  mean count/edge: 89
+
+Window 9 [ 1:45465832-53208834 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    24 seconds
+
+mean edges/level: 12     max edges/level: 33
+mean edges/node:  1.131  mean count/edge: 96
+
+Window 10 [ 1:52738651-59236313 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    23 seconds
+
+mean edges/level: 13     max edges/level: 31
+mean edges/node:  1.113  mean count/edge: 89
+
+Window 11 [ 1:58866940-66105888 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    22 seconds
+
+mean edges/level: 14     max edges/level: 37
+mean edges/node:  1.111  mean count/edge: 82
+
+Window 12 [ 1:65652814-73058395 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    22 seconds
+
+mean edges/level: 14     max edges/level: 34
+mean edges/node:  1.106  mean count/edge: 82
+
+Window 13 [ 1:72510517-79899105 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    21 seconds
+
+mean edges/level: 14     max edges/level: 33
+mean edges/node:  1.107  mean count/edge: 82
+
+Window 14 [ 1:79505599-86109155 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    22 seconds
+
+mean edges/level: 14     max edges/level: 33
+mean edges/node:  1.108  mean count/edge: 82
+
+Window 15 [ 1:85707256-92909048 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    23 seconds
+
+mean edges/level: 14     max edges/level: 35
+mean edges/node:  1.110  mean count/edge: 82
+
+Window 16 [ 1:92383756-99853289 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    25 seconds
+
+mean edges/level: 14     max edges/level: 42
+mean edges/node:  1.108  mean count/edge: 82
+
+Window 17 [ 1:99439678-106006715 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    25 seconds
+
+mean edges/level: 14     max edges/level: 34
+mean edges/node:  1.103  mean count/edge: 82
+
+Window 18 [ 1:105724990-112609803 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    22 seconds
+
+mean edges/level: 14     max edges/level: 33
+mean edges/node:  1.111  mean count/edge: 82
+
+Window 19 [ 1:112175538-119445307 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    20 seconds
+
+mean edges/level: 13     max edges/level: 31
+mean edges/node:  1.116  mean count/edge: 89
+
+Window 20 [ 1:119068729-143165591 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    17 seconds
+
+mean edges/level: 8      max edges/level: 36
+mean edges/node:  1.352  mean count/edge: 144
+
+Window 21 [ 1:142960527-146899543 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    13 seconds
+
+mean edges/level: 8      max edges/level: 30
+mean edges/node:  1.454  mean count/edge: 144
+
+Window 22 [ 1:146598136-152547851 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    15 seconds
+
+mean edges/level: 10     max edges/level: 30
+mean edges/node:  1.242  mean count/edge: 115
+
+Window 23 [ 1:152189586-159246523 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    21 seconds
+
+mean edges/level: 13     max edges/level: 33
+mean edges/node:  1.122  mean count/edge: 89
+
+Window 24 [ 1:158861040-165378735 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    20 seconds
+
+mean edges/level: 14     max edges/level: 34
+mean edges/node:  1.118  mean count/edge: 82
+
+Window 25 [ 1:164988220-171655761 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    24 seconds
+
+mean edges/level: 14     max edges/level: 36
+mean edges/node:  1.106  mean count/edge: 82
+
+Window 26 [ 1:171247231-178623417 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    24 seconds
+
+mean edges/level: 15     max edges/level: 39
+mean edges/node:  1.103  mean count/edge: 77
+
+Window 27 [ 1:178154474-185105356 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    23 seconds
+
+mean edges/level: 14     max edges/level: 32
+mean edges/node:  1.110  mean count/edge: 82
+
+Window 28 [ 1:184648774-191429759 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    23 seconds
+
+mean edges/level: 13     max edges/level: 36
+mean edges/node:  1.105  mean count/edge: 89
+
+Window 29 [ 1:191006996-197783258 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    21 seconds
+
+mean edges/level: 13     max edges/level: 36
+mean edges/node:  1.113  mean count/edge: 89
+
+Window 30 [ 1:197254535-204164845 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    19 seconds
+
+mean edges/level: 14     max edges/level: 35
+mean edges/node:  1.111  mean count/edge: 82
+
+Window 31 [ 1:203821004-210867314 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    21 seconds
+
+mean edges/level: 14     max edges/level: 35
+mean edges/node:  1.117  mean count/edge: 82
+
+Window 32 [ 1:210524090-217393023 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    21 seconds
+
+mean edges/level: 14     max edges/level: 35
+mean edges/node:  1.105  mean count/edge: 82
+
+Window 33 [ 1:217027721-223854968 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    21 seconds
+
+mean edges/level: 14     max edges/level: 36
+mean edges/node:  1.106  mean count/edge: 82
+
+Window 34 [ 1:223424617-230179094 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    22 seconds
+
+mean edges/level: 14     max edges/level: 33
+mean edges/node:  1.118  mean count/edge: 82
+
+Window 35 [ 1:229716458-236188712 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    20 seconds
+
+mean edges/level: 14     max edges/level: 34
+mean edges/node:  1.115  mean count/edge: 82
+
+Window 36 [ 1:235746665-241815468 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    21 seconds
+
+mean edges/level: 13     max edges/level: 36
+mean edges/node:  1.123  mean count/edge: 89
+
+Window 37 [ 1:241425047-247375720 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    21 seconds
+
+mean edges/level: 13     max edges/level: 38
+mean edges/node:  1.136  mean count/edge: 89
+
+Window 38 [ 1:247091420-249240598 ]
+target markers:      20113
+
+Refined IBD
+model scale: 2.40
+run time:    10 seconds
+
+mean edges/level: 12     max edges/level: 33
+mean edges/node:  1.158  mean count/edge: 96
+
+Number of markers:             1759113
+Total time for building model: 10 minutes 4 seconds
+Total time for IBD detection:  13 minutes 17 seconds
+Total run time:                18 minutes 42 seconds
+
+End time: 09:24 PM EDT on 11 May 2017
+beagle.21Jan17.6cc.jar (version 4.1) finished

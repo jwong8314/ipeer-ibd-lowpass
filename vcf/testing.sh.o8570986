@@ -1,0 +1,212 @@
+[tabix] the index file exists. Please use '-f' to overwrite.
+index failed
+done index
+extract chr1
+done dropping multiallelic
+                      +-----------------------------+
+                      |                             |
+                      |   Eagle v2.3.2              |
+                      |   March 23, 2017            |
+                      |   Po-Ru Loh                 |
+                      |                             |
+                      +-----------------------------+
+
+Copyright (C) 2015-2016 Harvard University.
+Distributed under the GNU GPLv3+ open source license.
+
+Command line options:
+
+/ifs/scratch/c2b2/ip_lab/jw3354/eagle/Eagle_v2.3.2/eagle \
+    --numThreads 12 \
+    --vcf ./TAGC_illumina.chr1.drop-multi.vcf.gz \
+    --geneticMapFile /ifs/scratch/c2b2/ip_lab/jw3354/eagle/Eagle_v2.3.2/tables/genetic_map_hg19_withX.txt \
+    --outPrefix TAGC_illumina.phased-only1 \
+    --chrom 1 
+
+Setting number of threads to 12
+
+=== Reading genotype data ===
+
+Reading genotypes for N = 577 samples
+Read M = 1759113 variants
+Filling in genetic map coordinates using reference file:
+  /ifs/scratch/c2b2/ip_lab/jw3354/eagle/Eagle_v2.3.2/tables/genetic_map_hg19_withX.txt
+Physical distance range: 249230454 base pairs
+Genetic distance range:  293.397 cM
+Average # SNPs per cM:   5996
+Auto-selecting --maxBlockLen: 0.25 cM
+Number of <=(64-SNP, 0.25cM) segments: 27499
+Average # SNPs per segment: 63
+Fraction of heterozygous genotypes: 0.113679
+Typical span of default 100-het history length: 0.15 cM
+Setting --histFactor=6.82
+Typical span of 681-het history length: 1.00 cM
+
+SKIPPED STEP 1
+
+SKIPPED STEP 2
+
+
+BEGINNING STEP 3 (PBWT ITERS)
+
+Auto-selecting number of PBWT iterations: setting --pbwtIters to 3
+
+
+BEGINNING PBWT ITER 1
+
+BATCH 1 OF 10
+
+Phasing samples 1-57
+Time for phasing batch: 588.71
+
+BATCH 2 OF 10
+
+Phasing samples 58-115
+Time for phasing batch: 574.865
+
+BATCH 3 OF 10
+
+Phasing samples 116-173
+Time for phasing batch: 552.762
+
+BATCH 4 OF 10
+
+Phasing samples 174-230
+Time for phasing batch: 554.091
+
+BATCH 5 OF 10
+
+Phasing samples 231-288
+Time for phasing batch: 547.394
+
+BATCH 6 OF 10
+
+Phasing samples 289-346
+Time for phasing batch: 542.171
+
+BATCH 7 OF 10
+
+Phasing samples 347-403
+Time for phasing batch: 537.222
+
+BATCH 8 OF 10
+
+Phasing samples 404-461
+Time for phasing batch: 533.746
+
+BATCH 9 OF 10
+
+Phasing samples 462-519
+Time for phasing batch: 517.298
+
+BATCH 10 OF 10
+
+Phasing samples 520-577
+Time for phasing batch: 510.244
+
+Time for PBWT iter 1: 5458.5
+
+BEGINNING PBWT ITER 2
+
+BATCH 1 OF 10
+
+Phasing samples 1-57
+Time for phasing batch: 476.139
+
+BATCH 2 OF 10
+
+Phasing samples 58-115
+Time for phasing batch: 476.727
+
+BATCH 3 OF 10
+
+Phasing samples 116-173
+Time for phasing batch: 461.806
+
+BATCH 4 OF 10
+
+Phasing samples 174-230
+Time for phasing batch: 474.582
+
+BATCH 5 OF 10
+
+Phasing samples 231-288
+Time for phasing batch: 464.662
+
+BATCH 6 OF 10
+
+Phasing samples 289-346
+Time for phasing batch: 475.482
+
+BATCH 7 OF 10
+
+Phasing samples 347-403
+Time for phasing batch: 469.408
+
+BATCH 8 OF 10
+
+Phasing samples 404-461
+Time for phasing batch: 469.898
+
+BATCH 9 OF 10
+
+Phasing samples 462-519
+Time for phasing batch: 468.743
+
+BATCH 10 OF 10
+
+Phasing samples 520-577
+Time for phasing batch: 454.241
+
+Time for PBWT iter 2: 4691.69
+
+BEGINNING PBWT ITER 3
+
+BATCH 1 OF 10
+
+Phasing samples 1-57
+Time for phasing batch: 634.974
+
+BATCH 2 OF 10
+
+Phasing samples 58-115
+Time for phasing batch: 638.847
+
+BATCH 3 OF 10
+
+Phasing samples 116-173
+Time for phasing batch: 613.585
+
+BATCH 4 OF 10
+
+Phasing samples 174-230
+Time for phasing batch: 657.727
+
+BATCH 5 OF 10
+
+Phasing samples 231-288
+Time for phasing batch: 630.368
+
+BATCH 6 OF 10
+
+Phasing samples 289-346
+Time for phasing batch: 634.993
+
+BATCH 7 OF 10
+
+Phasing samples 347-403
+Time for phasing batch: 1535.47
+
+BATCH 8 OF 10
+
+Phasing samples 404-461
+Time for phasing batch: 1955.58
+
+BATCH 9 OF 10
+
+Phasing samples 462-519
+Time for phasing batch: 1714.49
+
+BATCH 10 OF 10
+
+Phasing samples 520-577

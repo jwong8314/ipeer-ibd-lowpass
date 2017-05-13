@@ -1,0 +1,315 @@
+start
+[tabix] the index file exists. Please use '-f' to overwrite.
+index failed
+done index
+extract chr22
+done dropping multiallelic
+                      +-----------------------------+
+                      |                             |
+                      |   Eagle v2.3.2              |
+                      |   March 23, 2017            |
+                      |   Po-Ru Loh                 |
+                      |                             |
+                      +-----------------------------+
+
+Copyright (C) 2015-2016 Harvard University.
+Distributed under the GNU GPLv3+ open source license.
+
+Command line options:
+
+/ifs/scratch/c2b2/ip_lab/jw3354/eagle/Eagle_v2.3.2/eagle \
+    --numThreads 12 \
+    --vcf ./TAGC_illumina.chr22.drop-multi.vcf.gz \
+    --geneticMapFile /ifs/scratch/c2b2/ip_lab/jw3354/eagle/Eagle_v2.3.2/tables/genetic_map_hg19_withX.txt \
+    --outPrefix TAGC_illumina.phased-only22 \
+    --chrom 22 
+
+Setting number of threads to 12
+
+=== Reading genotype data ===
+
+Reading genotypes for N = 577 samples
+Read M = 326466 variants
+Filling in genetic map coordinates using reference file:
+  /ifs/scratch/c2b2/ip_lab/jw3354/eagle/Eagle_v2.3.2/tables/genetic_map_hg19_withX.txt
+Physical distance range: 35194327 base pairs
+Genetic distance range:  75.1318 cM
+Average # SNPs per cM:   4345
+Auto-selecting --maxBlockLen: 0.25 cM
+Number of <=(64-SNP, 0.25cM) segments: 5103
+Average # SNPs per segment: 63
+Fraction of heterozygous genotypes: 0.116776
+Typical span of default 100-het history length: 0.20 cM
+Setting --histFactor=5.07
+Typical span of 507-het history length: 1.00 cM
+
+SKIPPED STEP 1
+
+SKIPPED STEP 2
+
+
+BEGINNING STEP 3 (PBWT ITERS)
+
+Auto-selecting number of PBWT iterations: setting --pbwtIters to 3
+
+
+BEGINNING PBWT ITER 1
+
+BATCH 1 OF 10
+
+Phasing samples 1-57
+Time for phasing batch: 106.543
+
+BATCH 2 OF 10
+
+Phasing samples 58-115
+Time for phasing batch: 101.896
+
+BATCH 3 OF 10
+
+Phasing samples 116-173
+Time for phasing batch: 102.071
+
+BATCH 4 OF 10
+
+Phasing samples 174-230
+Time for phasing batch: 104.575
+
+BATCH 5 OF 10
+
+Phasing samples 231-288
+Time for phasing batch: 99.2875
+
+BATCH 6 OF 10
+
+Phasing samples 289-346
+Time for phasing batch: 97.0332
+
+BATCH 7 OF 10
+
+Phasing samples 347-403
+Time for phasing batch: 94.8594
+
+BATCH 8 OF 10
+
+Phasing samples 404-461
+Time for phasing batch: 95.1736
+
+BATCH 9 OF 10
+
+Phasing samples 462-519
+Time for phasing batch: 93.6517
+
+BATCH 10 OF 10
+
+Phasing samples 520-577
+Time for phasing batch: 92.5575
+
+Time for PBWT iter 1: 987.649
+
+BEGINNING PBWT ITER 2
+
+BATCH 1 OF 10
+
+Phasing samples 1-57
+Time for phasing batch: 85.1949
+
+BATCH 2 OF 10
+
+Phasing samples 58-115
+Time for phasing batch: 85.2838
+
+BATCH 3 OF 10
+
+Phasing samples 116-173
+Time for phasing batch: 87.5022
+
+BATCH 4 OF 10
+
+Phasing samples 174-230
+Time for phasing batch: 88.3043
+
+BATCH 5 OF 10
+
+Phasing samples 231-288
+Time for phasing batch: 87.699
+
+BATCH 6 OF 10
+
+Phasing samples 289-346
+Time for phasing batch: 84.2039
+
+BATCH 7 OF 10
+
+Phasing samples 347-403
+Time for phasing batch: 83.8764
+
+BATCH 8 OF 10
+
+Phasing samples 404-461
+Time for phasing batch: 83.5625
+
+BATCH 9 OF 10
+
+Phasing samples 462-519
+Time for phasing batch: 84.0254
+
+BATCH 10 OF 10
+
+Phasing samples 520-577
+Time for phasing batch: 86.967
+
+Time for PBWT iter 2: 856.62
+
+BEGINNING PBWT ITER 3
+
+BATCH 1 OF 10
+
+Phasing samples 1-57
+Time for phasing batch: 109.818
+
+BATCH 2 OF 10
+
+Phasing samples 58-115
+Time for phasing batch: 111.589
+
+BATCH 3 OF 10
+
+Phasing samples 116-173
+Time for phasing batch: 107.581
+
+BATCH 4 OF 10
+
+Phasing samples 174-230
+Time for phasing batch: 114.518
+
+BATCH 5 OF 10
+
+Phasing samples 231-288
+Time for phasing batch: 110.551
+
+BATCH 6 OF 10
+
+Phasing samples 289-346
+Time for phasing batch: 108.403
+
+BATCH 7 OF 10
+
+Phasing samples 347-403
+Time for phasing batch: 109.751
+
+BATCH 8 OF 10
+
+Phasing samples 404-461
+Time for phasing batch: 107.089
+
+BATCH 9 OF 10
+
+Phasing samples 462-519
+Time for phasing batch: 107.246
+
+BATCH 10 OF 10
+
+Phasing samples 520-577
+Time for phasing batch: 112.984
+
+Time for PBWT iter 3: 1099.54
+Writing vcf.gz output to TAGC_illumina.phased-only22.vcf.gz
+Time for writing output: 326.281
+Total elapsed time for analysis = 3476.59 sec
+done phasing with eagle
+beagle.21Jan17.6cc.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.21Jan17.6cc.jar" for a summary of command line arguments.
+Start time: 07:04 PM EDT on 12 May 2017
+
+Command line: java -Xmx3641m -jar beagle.jar
+  nthreads=12
+  ibd=true
+  ibdcm=1.0
+  gt=TAGC_illumina.phased-only22.vcf.gz
+  out=TAGC_illumina.beagle.chr22
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+reference samples:       0
+target samples:        577
+
+Window 1 [ 22:16050116-19918723 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    15 seconds
+
+mean edges/level: 10     max edges/level: 33
+mean edges/node:  1.259  mean count/edge: 115
+
+Window 2 [ 22:19590142-24465716 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    19 seconds
+
+mean edges/level: 11     max edges/level: 33
+mean edges/node:  1.180  mean count/edge: 105
+
+Window 3 [ 22:24145923-30521244 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    21 seconds
+
+mean edges/level: 14     max edges/level: 37
+mean edges/node:  1.131  mean count/edge: 82
+
+Window 4 [ 22:30026829-36259496 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    21 seconds
+
+mean edges/level: 14     max edges/level: 37
+mean edges/node:  1.115  mean count/edge: 82
+
+Window 5 [ 22:35888440-42620571 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    21 seconds
+
+mean edges/level: 13     max edges/level: 32
+mean edges/node:  1.135  mean count/edge: 89
+
+Window 6 [ 22:42239348-47460594 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    25 seconds
+
+mean edges/level: 14     max edges/level: 32
+mean edges/node:  1.124  mean count/edge: 82
+
+Window 7 [ 22:47134990-51244443 ]
+target markers:      44466
+
+Refined IBD
+model scale: 2.40
+run time:    19 seconds
+
+mean edges/level: 14     max edges/level: 32
+mean edges/node:  1.132  mean count/edge: 82
+
+Number of markers:              326466
+Total time for building model: 1 minute 52 seconds
+Total time for IBD detection:  2 minutes 21 seconds
+Total run time:                2 minutes 57 seconds
+
+End time: 07:07 PM EDT on 12 May 2017
+beagle.21Jan17.6cc.jar (version 4.1) finished
+done beagle ibd call

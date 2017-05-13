@@ -1,0 +1,94 @@
+beagle.21Jan17.6cc.jar (version 4.1)
+Copyright (C) 2014-2015 Brian L. Browning
+Enter "java -jar beagle.21Jan17.6cc.jar" for a summary of command line arguments.
+Start time: 07:04 PM EDT on 12 May 2017
+
+Command line: java -Xmx3641m -jar beagle.jar
+  nthreads=12
+  ibd=true
+  ibdcm=1.0
+  gt=TAGC_illumina.phased-only22.vcf.gz
+  out=TAGC_illumina.beagle.chr22
+
+No genetic map is specified: using 1 cM = 1 Mb
+
+reference samples:       0
+target samples:        577
+
+Window 1 [ 22:16050116-19918723 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    15 seconds
+
+mean edges/level: 10     max edges/level: 33
+mean edges/node:  1.259  mean count/edge: 115
+
+Window 2 [ 22:19590142-24465716 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    19 seconds
+
+mean edges/level: 11     max edges/level: 33
+mean edges/node:  1.180  mean count/edge: 105
+
+Window 3 [ 22:24145923-30521244 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    21 seconds
+
+mean edges/level: 14     max edges/level: 37
+mean edges/node:  1.131  mean count/edge: 82
+
+Window 4 [ 22:30026829-36259496 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    21 seconds
+
+mean edges/level: 14     max edges/level: 37
+mean edges/node:  1.115  mean count/edge: 82
+
+Window 5 [ 22:35888440-42620571 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    21 seconds
+
+mean edges/level: 13     max edges/level: 32
+mean edges/node:  1.135  mean count/edge: 89
+
+Window 6 [ 22:42239348-47460594 ]
+target markers:      50000
+
+Refined IBD
+model scale: 2.40
+run time:    25 seconds
+
+mean edges/level: 14     max edges/level: 32
+mean edges/node:  1.124  mean count/edge: 82
+
+Window 7 [ 22:47134990-51244443 ]
+target markers:      44466
+
+Refined IBD
+model scale: 2.40
+run time:    19 seconds
+
+mean edges/level: 14     max edges/level: 32
+mean edges/node:  1.132  mean count/edge: 82
+
+Number of markers:              326466
+Total time for building model: 1 minute 52 seconds
+Total time for IBD detection:  2 minutes 21 seconds
+Total run time:                2 minutes 57 seconds
+
+End time: 07:07 PM EDT on 12 May 2017
+beagle.21Jan17.6cc.jar (version 4.1) finished
