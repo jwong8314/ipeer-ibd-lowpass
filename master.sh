@@ -1,5 +1,5 @@
 #!/bin/bash
-#$ -l mem=48G,time=12:: -S /bin/bash -N testing.sh -j y -cwd
+#$ -l h_vmem=8G -l h_data=8G -S /bin/bash -N testing.sh -j y -cwd
 
 HOME=/ifs/scratch/c2b2/ip_lab/jw3354
 TABIX=$HOME/bcftools/bin/tabix
