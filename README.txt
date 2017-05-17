@@ -14,6 +14,7 @@ master.sh -- takes a bgzip file and runs finds IBD segments
 	- extracts a chromosome
 	- drop multiallelic
 	- call eagle to phase
+	- remove low frequency SNPs with filter.py 
 	- call beagle to call ibd
 downsample.cpp -- program downsamples a given sam file
   - NOTE: original file accidentially deleted so was rewritten
@@ -25,6 +26,10 @@ testGATK.sh -- runs HaplotypeCaller on sorted bam
   - sorts 
 	- call HaplotypeCaller both 1.0 and 0.1 sampling
 	- removes multiallelic
+filter.py
+  - written by Ryan Bernstein
+	- takes vcf.gz and drops low frequency SNPs
+	- outputs to STDOUT a vcf
 
 NOTE: multialleic sites were dropped as that they usually imply poor read
 quality.
